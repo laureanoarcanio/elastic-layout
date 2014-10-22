@@ -6,3 +6,4 @@ elastic-layout
 
 Today responsive techniques are better suited to go from a large desktop application to small phones resolutions. This technique works as a complementary tool to adapt design to even bigger screens.
 
+Elastic layout in conjunction with media queries can bring you a whole new level of responsiveness by proportionally changing element size.
