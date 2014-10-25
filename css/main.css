@@ -4,14 +4,20 @@ body {
     /*16px * 80 = 1280px */
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-style: italic;
+}
+
 p {
     text-align: justify;
 }
 
-.text-static {
-    font-size: 16px;
-}
-
+/*Page layout basics*/
 .container {
     width: 80em;
     margin: 1em auto;
@@ -30,4 +36,70 @@ section .title {
     padding: 0.5em 0;
     margin: 2em 0;
 }
+
+/*Links*/
+.links {
+    text-align: center;
+}
+.links a {
+    margin: 1em;
+}
+
+/*CSS BOX*/
+.boxes {
+    text-align: center;
+}
+.box {
+    width: 6em;
+    height: 6em;
+    margin: 1em;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #583232;
+}
+
+.box.md {
+    width: 10em;
+    height: 10em;
+}
+
+.box.lg {
+    width: 14em;
+    height: 14em;
+}
+
+.box.xl {
+    width: 18em;
+    height: 18em;
+}
+.box.xxl {
+    width: 26em;
+    height: 26em;
+}
+.box.auto-h {
+    height: auto;
+}
+
+.box.text-content {
+    padding: 1em;
+}
+
+/*Images*/
+
+img {
+    max-width: 100%;
+}
+
+/*HELPERS*/
+
+/*General class to fix element size*/
+.text-static {
+    font-size: 16px;
+}
+
+.no-bg {
+    background-color: initial;
+    background-image: initial; 
+}
+
 
